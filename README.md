@@ -1,3 +1,3 @@
 # custom-poller
 
-This is a custom utilities functions that i wrote when working with the optimizely A/B testing platform at jet2. The utils file contains a custom poller that polls for DOM elements and values from the datalayer, which are then accessed by the window object and manipulated in a separate js file when serving the user a different experience.
+This is a custom utilities file that i wrote when working with the optimizely A/B testing platform at jet2. The utils file contains a custom poller that takes in css selectors to look for DOM nodes and/or functions that must return a value. These elements are then stored and accessed by the window object to be manipulated in a separate js file when serving the user a different experience.
